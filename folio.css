@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: #fff;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-right: 18px;
+}
+nav a{
+    padding: 15px;
+}
+.sect-portfolio{
+    background: #1F2039;
+    height: 160px;
+    margin-top: 25px;
+}
+.sect-portfolio h1{
+    margin-left: 35px;
+    color: #A5B4FC;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 95px;
+    padding-top: 30px;
+    padding-bottom: 20;
+}
+.portfolio-section-photos h2{
+    margin-top: 45px;
+    margin-bottom: 15px;
+    margin-left: 170px;
+}
+.portfolio-section-photos{
+    margin: 80px;
+    background: #fff;
+    color: black;
+}
+.container1 img{
+    width: 328px;
+    height: 311px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-left: 170px;
+}
+.photo-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+.portrait h2{
+    margin-top: 70px;
+}
+.portrait img{
+    width: 328px;
+    height: auto;
+}
+.portrait{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin-left: 170px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    margin: 15px;
+    padding: 10px;
+}
